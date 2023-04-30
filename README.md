@@ -31,6 +31,8 @@ df = pd.read_csv(
     "https://raw.githubusercontent.com/JoeBarrett01/data-visualization/main/lancaster-contacts-data-store-2021-10-15.csv")
 ```
 
+Data will be subset according to newdf. Further details on data collection for each variable are found in the [data dictionary](https://github.com/JoeBarrett01/data-visualization/blob/main/lancaster-contacts-data-dictionary-2021-10-15.csv).
+
 ## Running The Code
 
 Run [visualization.py](https://github.com/JoeBarrett01/data-visualization/blob/main/visualization.py) with:
