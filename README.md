@@ -3,8 +3,12 @@
 ## Coding Requirements
 
 1. Python-3
-2. The below packages must be imported. 
-3. The code must be ran from a terminal (such as VSCode, Powershell, Mac Terminal, etc) - Google colab as it does not fully support dash.
+2. The code must be ran from a terminal (such as VSCode, Powershell, Mac Terminal, etc) - Google colab as it does not fully support dash.
+3. Packages below must be accessed either via pip, conda, pipenv, etc. The code was developed using pip, but works in any python friendly environment. 
+```
+pipenv install -r requirements.txt
+```
+or ``` pip install "each package"```
 ```
 import plotly.express as px
 import plotly.figure_factory as ff
